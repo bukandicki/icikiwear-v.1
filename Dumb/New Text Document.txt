@@ -1,0 +1,93 @@
+/* .best-seller {
+    overflow: hidden;
+}
+
+.best-seller .slide {
+    max-width: 370px;
+    min-height: 370px;
+    margin: 0 10px;
+}
+
+.glider-prev {
+    width: 3rem;
+    height: 3rem;
+    top: 4em;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+}
+
+.glider-next {
+    width: 3rem;
+    height: 3rem;
+    top: 4em;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+}
+
+.product-name {
+    font-family: 'Futura Light' !important;
+}
+
+.product-name strike {
+    color: red;
+}
+
+.btn-addtocart {
+    width: 9em;
+    font-size: x-small;
+    visibility: hidden;
+    background: rgba(0, 0, 0, .4);
+    padding: .5em;
+    transition: background 250ms ease-in-out;
+    color: white;
+}
+
+.btn-addtocart:hover {
+    background: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.banner-section {}
+
+.men-banner, .woman-banner {
+    position: relative;
+    height: 8rem;
+}
+
+.men-banner h2, .woman-banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    letter-spacing: .5rem;
+}
+
+.men-banner img, .woman-banner img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+.hot-banner, .newar-banner, .disc-banner {
+    position: relative;
+    height: 15rem;
+    background: red;
+}
+
+/* .hot-banner h2, .newar-banner h2, .disc-banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    letter-spacing: .5rem;
+} */
+
+/* .hot-banner img, .newar-banner img, .disc-banner img {

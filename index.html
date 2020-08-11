@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="images/icon.jpg" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Icikiwear Official Store</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-white navbar-lite pl-2 pr-0">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOKASI TOKO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CARA ORDER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="content/faq.html">FAQ</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav secondary-right-nav">
+            <li class="nav-item border border-right-0 border-top-0 border-bottom-0 m-0 p-0">
+                <a class="nav-link right-secondary-link1" href="#">KONFIRMASI PEMBAYARAN</a>
+            </li>
+            <li class="nav-item border border-right-0 border-top-0 border-bottom-0">
+                <a class="nav-link right-secondary-link2" href="content/trackorder.php">LACAK PESANAN</a>
+            </li>
+            <li class="nav-item border border-right-0 border-top-0 border-bottom-0">
+                <a class="nav-link right-secondary-link3" href="#">LOGIN</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-white px-5 sticky-top">
+        <a class="navbar-brand" href="#"><img src="images/icon2.svg" alt="Icon" width="60" height="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">T-SHIRT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">JACKET</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="content/bundling.php">PAKET</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                        ACCESSORIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">HAT</a>
+                        <a class="dropdown-item" href="#">BUFF</a>
+                        <a class="dropdown-item" href="#">SUNGLASSES</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="la la-gift"></i> MISTERY BOX</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav p-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="la la-heart"></i> FAV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="cart"><i class="fas fa-shopping-basket"></i> JAJANAN</a>
+                <div class="cart-container" id="cart-basket">
+                    <div class="close-cart"><button type="button"><i class="la la-times"></i></button></div>
+                    <h5 class="mt-3 text-center mb-3">DAFTAR JAJANAN!</h5>
+                    <!-- <p class="text-center">Keranjang kamu masih kosong, kuy belanja dulu <i class="la la-smile-beam"></i></p> -->
+                    <div>
+                        <em>
+                            <img src="images/tas.webp" alt="">
+                            <strong>Tas georgia yellow</strong>
+                            Ukuran : All size
+                            <br>
+                            Jumlah : 1
+                            <br>
+                            Harga : Rp. 90,000
+                        </em>
+                    </div>
+                    <div>
+                        <em>
+                            <img src="images/2.webp" alt="">
+                            <strong>Kaos pubg mobile</strong>
+                            Ukuran : L
+                            <br>
+                            Jumlah : 1
+                            <br>
+                            Harga : Rp. 150,000
+                        </em>
+                    </div>
+                    <div>
+                        <em>
+                            <img src="images/sepatu.jpg" alt="">
+                            <strong>Casual shoes</strong>
+                            Ukuran : 42
+                            <br>
+                            Jumlah : 1
+                            <br>
+                            Harga : Rp. 90,000
+                        </em>
+                    </div>
+                    <a href="#" class="checkout-button">KE KASIR</a>
+                </div>
+            </li>
+            <li class="nav-item m-0 p-0">
+                <div class="form-group m-0">
+                    <input type="text" class="pl-3" id="caribarang" placeholder="Mau cari apa?">
+                    <button class="" type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <section class="mt-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="content/login.php">
+                        <!-- <img class="d-block w-100" src="images/n.gif" alt="First slide"> -->
+                        <h1 class="text-center">SLIDE 1</h1>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <!-- <img class="d-block w-100" src="..." alt="Seconf slide"> -->
+                        <h1 class="text-center">SLIDE 2</h1>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+                        <h1 class="text-center">SLIDE 3</h1>
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="">
+        
+    </section>
+    <section class="mt-4">
+        <div class="container-fluid">
+            <div class="container pl-0 pr-0">
+                <div class="items w-100">
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">99%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image">
+                                <img src="images/2.webp" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Pubg Solid Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span class="">Rp.150,000</span> Rp.75,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em class="kosong">S</em>
+                                    <em class="kosong">M</em>
+                                    <em>L</em>
+                                    <em>XL</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">20%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image ">
+                                <img src="images/sepatu.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Casual Shoes Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span>Rp.150,000</span> Rp.95,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em>39</em>
+                                    <em class="kosong">40</em>
+                                    <em>41</em>
+                                    <em>42</em>
+                                    <em>43</em>
+                                    <em>44</em>
+                                    <em>45</em>
+                                    <em>46</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">20%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image ">
+                                <img src="images/2.webp" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Pubg Solid Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span>Rp.150,000</span> Rp.30,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em class="kosong">S</em>
+                                    <em class="kosong">M</em>
+                                    <em>L</em>
+                                    <em>XL</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">20%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image">
+                                <img src="images/2.webp" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Pubg Solid Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span>Rp.150,000</span> Rp.30,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em class="kosong">S</em>
+                                    <em class="kosong">M</em>
+                                    <em>L</em>
+                                    <em>XL</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="items w-100">
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">99%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image">
+                                <img src="images/2.webp" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Pubg Solid Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span class="">Rp.150,000</span> Rp.75,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em class="kosong">S</em>
+                                    <em class="kosong">M</em>
+                                    <em>L</em>
+                                    <em>XL</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">20%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image ">
+                                <img src="images/sepatu.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Casual Shoes Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span>Rp.150,000</span> Rp.95,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em>39</em>
+                                    <em class="kosong">40</em>
+                                    <em>41</em>
+                                    <em>42</em>
+                                    <em>43</em>
+                                    <em>44</em>
+                                    <em>45</em>
+                                    <em>46</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">20%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image ">
+                                <img src="images/2.webp" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Pubg Solid Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span>Rp.150,000</span> Rp.30,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em class="kosong">S</em>
+                                    <em class="kosong">M</em>
+                                    <em>L</em>
+                                    <em>XL</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card border-0 rounded-0" style="width: 17rem;">
+                            <div class="status-item px-2">
+                                <div class="discount p-1 d-flex align-item-center justify-content-center"><span class="text-center">20%</span></div>
+                                <div class="new ml-1 p-1 d-flex align-item-center justify-content-center"><span class="text-center">NEW</span></div>
+                                <button class="ml-auto" type="button"><i class="la la-heart"></i></button>
+                            </div>
+                            <div class="container-image">
+                                <img src="images/2.webp" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body pt-2">
+                                <span class="card-title">Pubg Solid Black</span>
+                                <p class="card-text mt-2 mb-0">
+                                    <div class="price-small">
+                                        <span>Rp.150,000</span> Rp.30,000
+                                    </div>
+                                </p>
+                                <div class="size">
+                                    <em class="kosong">S</em>
+                                    <em class="kosong">M</em>
+                                    <em>L</em>
+                                    <em>XL</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="payment-section">
+        <!-- <h1 class="payment-title text-center">Payment Support</h1> -->
+        <div class="container-fluid d-inline-flex justify-content-center align-items-center">
+            <div class="bank mr-5">
+                <img src="images/bca.png" alt="">
+            </div>
+            <div class="bank mr-5">
+                <img src="images/bri.png" alt="">
+            </div>
+            <div class="bank mr-5">
+                <img src="images/gopay.png" alt="">
+            </div>
+            <div class="bank">
+                <img src="images/alfa.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container pt-5">
+            <ul>
+                <li>
+                    <div class="footer-title">LOKASI TOKO</div>
+                    <span>Jl. Babakan Sari III Rt.01 Rw.15 No.8 Bandung, Jawabarat</span>
+                    <div class="footer-title mt-5">BANTUAN</div>
+                    <a href="#"><i class="la la-whatsapp"></i> 085795266769</a>
+                </li>
+                <li class="ml-5">
+                    <div class="footer-title">LINK</div>
+                    <div>
+                        <a href="#">Home</a>
+                    </div>
+                    <div>
+                        <a href="#">About Us</a>
+                    </div>
+                    <div>
+                        <a href="#">Cara Order</a>
+                    </div>
+                    <div>
+                        <a href="#">FAQ</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-title">IKUTI KAMI</div>
+                    <div>
+                        <a href="#"><i class="la la-instagram"></i> icikiwear.id</a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="la la-facebook"></i> icikiwear.id</a>
+                    </div>
+                    <div class="mt-5">
+                        <p>
+
+                            Icikiwear Official Store © 2019 . Allright Reserved
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/master.js"></script>
+    <script src="js/glider.min.js"></script>
+    <script>
+        new Glider(document.querySelector('.best-seller'), {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            draggable: false,
+            dots: '.glider-dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

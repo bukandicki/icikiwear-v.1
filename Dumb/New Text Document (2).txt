@@ -1,0 +1,61 @@
+    <!-- <section class="banner-section mt-5">
+        <div class="container-fluid text-center">
+            <div class="row mb-1">
+                <div class="col men-banner mr-2 p-0">
+                    <a href="">
+                        <img src="images/men.jpg" class="" alt="">
+                    </a>
+                </div>
+                <div class="col woman-banner bg-primary p-0">
+                    <a href="">
+                        <img src="images/woman.jpg" class="" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col hot-banner mr-2 p-0">
+                    <a href="">
+                        <img src="images/5.jpg" class="" alt="">
+                    </a>
+                </div>
+                <div class="col newar-banner mr-2 p-0">
+                    <a href="">
+                        <img src="images/5.jpg" class="" alt="">
+                    </a>
+                </div>
+                <div class="col disc-banner p-0">
+                    <a href="">
+                        <img src="images/5.jpg" class="" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center mb-3 mt-5">Best Seller</h1>
+            <div class="glider-contain">
+                <button class="glider-prev ml-4 d-flex align-items-center justify-content-center"><i
+                        class="la la-angle-left"></i></button>
+                <div class="best-seller d-flex">
+                    <div class="slide" id="1">
+                        <a href="">
+                            <img class="product-image" src="images/pubgg.jpg" alt="Pubg">
+                        </a>
+                        <div class="product-name text-secondary text-center mt-3">
+                            <p class="m-0 text-uppercase">Pubg Battle Ground</p>
+                            <div class="price small text-secondary">
+                                <span>Rp 85.000</span>
+                                <strike>Rp 150.000</strike>
+                            </div>
+                            <a href="" class="btn btn-addtocart mt-2 rounded-0">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="glider-next mr-4 d-flex align-items-center justify-content-center"><i
+                        class="la la-angle-right"></i></button>
+                <div id="dots" class="glider-dots"></div>
+            </div>
+        </div>
+    </section> -->
